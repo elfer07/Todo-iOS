@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		ED698A502DBB179000DC1CBA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ED698A4F2DBB179000DC1CBA /* README.md */; };
+		ED698B362DBB19D500DC1CBA /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = ED698B352DBB19D500DC1CBA /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		ED6988B72DBAC2C600DC1CBA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		ED6988A92DBAC2C400DC1CBA /* Tasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED6988B62DBAC2C600DC1CBA /* TasksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED6988C02DBAC2C600DC1CBA /* TasksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED698A4F2DBB179000DC1CBA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		ED698B352DBB19D500DC1CBA /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +82,8 @@
 		ED6988A02DBAC2C400DC1CBA = {
 			isa = PBXGroup;
 			children = (
+				ED698B352DBB19D500DC1CBA /* .gitignore */,
+				ED698A4F2DBB179000DC1CBA /* README.md */,
 				ED6988AB2DBAC2C400DC1CBA /* Tasks */,
 				ED6988B92DBAC2C600DC1CBA /* TasksTests */,
 				ED6988C32DBAC2C600DC1CBA /* TasksUITests */,
@@ -212,6 +221,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED698A502DBB179000DC1CBA /* README.md in Resources */,
+				ED698B362DBB19D500DC1CBA /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

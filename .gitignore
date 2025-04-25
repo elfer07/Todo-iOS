@@ -1,0 +1,19 @@
+# Build & Derived Data
+build/
+DerivedData/
+
+# Xcode Workspace/Project
+*.xcuserstate
+*.xcworkspace/xcuserdata
+*.xcodeproj/project.xcworkspace/xcuserdata
+
+# SwiftPM
+.build/
+.swiftpm/xcode/package.xcworkspace/
+
+# Carthage
+Carthage/
+
+# General macOS
+.DS_Store
+
